@@ -1,0 +1,112 @@
+/*Directly set against h1 selector*/
+/*The h1 selector helps styling the <h1> element in the html*/
+h1 {
+  margin: 20px;
+  padding: 5px;
+  color: black;
+  font-size: 55px; /*Overrides the default font-size of h1 */
+  text-align: right; /*Overrides the default text-align of h1*/
+  text-decoration: underline;
+  text-decoration-thickness: 5%;
+}
+/*Directly set against h2 selector*/
+/*The h2 selector helps styling the <h2> element in the html*/
+h2 {
+    color: #a0522d;
+    margin: 20px;
+    text-align: left; 
+    font-size: 25px; /*Overrides the default font-size of h2*/
+}
+/*Directly against the body selector*/
+/*The body selector helps styling the <body> element in the html*/
+body {
+    background-color: #FFFAFA; /*Overrides the default background-color of body*/
+    margin: 20px;
+    padding: 5px;
+}
+/*We style the HTML element with id="intro"*/
+/*The id="#intro" selector helps styling the targeted element in the html with a unique identification*/
+#intro {
+  color: black;
+  font-size: 45px; 
+  margin: 40px;
+  padding: 140px;
+}
+/*Directly set against the h3 selector*/
+/*The h3 selector helps styling the <h3> element in the html*/
+h3 {
+  font-size: 25px; /*Overrides the default font-size of h3*/
+  margin: 20px;
+  text-align: center; /*Overrides the default text-align of h3*/
+  color: #F08080; /*Overrides the default color of h2*/
+}
+/*Directly set against p selector */
+/*The p selector helps styling the <p> element in the html*/
+p {
+  margin: 20px;
+  padding: 5px;
+  color: black;
+  text-align: center; /*Overrides the default text-align of p*/
+}
+
+/*We style the the html element with class="class_li"*/
+/*The class="class_li" selector helps styling the targeted element in the html accordingly*/
+.class_li {
+  font-size: 15px;
+  display: inline;
+  margin: 50px;
+  padding: 15px 25px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+/*We style the table element, table heading(th) element, table data(td) element of the html file*/
+/*These selectors help styling the table elements of the html*/
+table, th, td{
+  text-align: left;
+  border: 3px solid black;
+  padding: 10px;
+  border-collapse: collapse;
+  margin: 40px;
+}
+/*We style the html element with id=#id2*/
+/*The id="#id2" selector helps styling the targeted elements in the html with a unique identification*/
+#id2 {
+  text-align: left;
+  border: 2px solid black;
+  padding: 15px;
+  border-collapse: collapse;
+  margin: 20px;
+}
+/*We style the unordered list (ul) element of the html file*/
+/*The ul selector helps styling the unordered list elements in the html*/
+ul {
+  list-style-position: inside; /*Overrides the default list-style-position of ul*/
+  background: #FDF5E6;
+  color: black;
+  padding: 5px;
+  margin-left: 35px;
+  font-size: 20px;
+}
+/*We style the html element with id=#end*/
+/*The id="#end" selector helps styling the targeted elements with unique identification*/
+#end {
+    font-weight: bold;
+    margin: 20px;
+    color: black;
+}
+/*We style the the html element with class="bottom"*/
+/*The class="bottom" selector helps styling the targeted element in the html accordingly*/
+.bottom {
+  text-align: center; 
+  margin: 40px;
+  padding:20px;
+  color: gray; 
+}
+h4{
+  color: black;
+  font-size: 20px; /*Overrides the default font-size of h4*/
+  text-align: left;
+  margin: 20px;
+}
